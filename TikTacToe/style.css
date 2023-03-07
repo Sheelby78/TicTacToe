@@ -1,0 +1,90 @@
+
+.sweet-title {
+    cursor: default;
+    font-family: "Permanent Marker", cursive;
+    order: 2;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    color: #fde9ff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 10vw, 6rem);
+    line-height: 0.75em;
+    text-align: center;
+    text-shadow: 3px 1px 1px #5a1497, 2px 2px 1px #3b0385, 4px 2px 1px #5a1497,
+        3px 3px 1px #3b0385, 5px 3px 1px #5a1497, 4px 4px 1px #3b0385,
+        6px 4px 1px #5a1497, 5px 5px 1px #3b0385, 7px 5px 1px #5a1497,
+        6px 6px 1px #3b0385, 8px 6px 1px #5a1497, 7px 7px 1px #3b0385,
+        9px 7px 1px #5a1497;
+}
+  
+
+
+
+.cellContainer{
+    width: 225px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+}
+.MainFrame{
+    cursor: default;
+    width: 225px;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.cell:hover {
+    background-color: yellow;
+  }
+
+.btn{
+    margin-top: 10px;
+    margin-left: auto;
+    border-radius: 8px;
+    width : 80px ;
+    height : 40px ;
+    background-color: rgb(143, 77, 181);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(80, 47, 99);
+}
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(140, 0, 255));
+  }
+
+.result{
+    position: absolute;
+    top: 28%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 70px;
+    color: #fde9ff;
+    text-shadow: 3px 1px 1px #5a1497, 2px 2px 1px #3b0385, 4px 2px 1px #5a1497,
+    3px 3px 1px #3b0385, 5px 3px 1px #5a1497, 4px 4px 1px #3b0385,
+    6px 4px 1px #5a1497, 5px 5px 1px #3b0385, 7px 5px 1px #5a1497,
+    6px 6px 1px #3b0385, 8px 6px 1px #5a1497, 7px 7px 1px #3b0385,
+    9px 7px 1px #5a1497;
+    border: 2px, solid, black;
+    box-shadow: 0 0 0 4px;
+    background: rgb(143, 77, 181);
+    width: 40%;
+    border-radius: 50px;
+    display: none;
+}

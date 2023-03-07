@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTakToe_Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div id = "result", class = "result animate__animated animate__bounceIn" >DRAW</div>
+    <h1 class="sweet-title">
+        <span style = "padding-right: 2.25rem;">Tic</span>
+        <span style = "padding-right: 2.25rem;">Toe</span>
+        <span style = "padding-right: 2.25rem;">Tac</span>
+      </h1>
+    <div class="MainFrame">
+        <div id = "box", class="cellContainer">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <h2 id="Score">X: 0 O: 0</h2>
+        <button class = "btn", id="reset", onclick="btnReset()">Reset</button>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
